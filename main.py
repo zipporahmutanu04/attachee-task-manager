@@ -79,10 +79,10 @@ def main():
     manager = TaskManager()
 
     # Create attachees
-    a1 = Attachee("Alice", "Engineering")
-    a2 = Attachee("Brian", "Tech Programs")
-    a3 = Attachee("Carol", "Radio Support")
-    a4 = Attachee("David", "Hub Support")
+    a1 = Attachee("Mutanu", "Engineering")
+    a2 = Attachee("Zippy", "Tech Programs")
+    a3 = Attachee("Kimathi", "Radio Support")
+    a4 = Attachee("Zawadi", "Hub Support")
 
     # Add attachees to manager
     manager.add_attachee(a1)
@@ -91,15 +91,15 @@ def main():
     manager.add_attachee(a4)
 
     # Assign tasks and give feedback
-    manager.assign_task("Alice", "Design circuit")
-    manager.assign_task("Brian", "Develop web app")
-    manager.assign_task("Carol", "Manage radio inventory")
-    manager.assign_task("David", "Coordinate logistics")
+    manager.assign_task("Mutanu", "Design circuit")
+    manager.assign_task("Zippy", "Develop web app")
+    manager.assign_task("Kimathi", "Manage radio inventory")
+    manager.assign_task("Zawadi", "Coordinate logistics")
 
-    manager.give_feedback_and_score("Alice", "Great design!", 90)
-    manager.give_feedback_and_score("Brian", "Clean code.", 85)
-    manager.give_feedback_and_score("Carol", "Efficient handling.", 88)
-    manager.give_feedback_and_score("David", "Well organized.", 92)
+    manager.give_feedback_and_score("Mutanu", "Great design!", 97)
+    manager.give_feedback_and_score("Zippy", "Clean code.", 81)
+    manager.give_feedback_and_score("Kimathi", "Efficient handling.", 90)
+    manager.give_feedback_and_score("Zawadi", "Well organized.", 71)
 
     # Display all performance
     manager.display_performance()
